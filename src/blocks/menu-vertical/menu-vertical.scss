@@ -1,0 +1,27 @@
+.menu-vertical__list {
+	/* 2 Block model */
+	margin: 0;
+	padding: 1px 0 0 0;
+	/* 4 Decor */
+	list-style: none;
+}
+.menu-vertical__link {
+	/* 3 Typography */
+	color: $color-text-1;
+	/* 4 Decor */
+	text-decoration: none;
+}
+.menu-vertical__link:hover {
+	/* 4 Decor */
+	text-decoration: underline;
+}
+.menu-vertical__item {
+	/* 2 Block model */
+
+	/* 3 Typography */
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}

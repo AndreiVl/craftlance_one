@@ -1,0 +1,33 @@
+mixin service-item(data)
+	div.service-item(class!=attributes.class)
+		h3.service-item__title!=data.title
+
+		div.service-item__price
+			p
+				b!=data.price
+			span per month
+
+		ul.service-item__list
+			li
+				include ../icon/icon.pug
+				+icon('icon--check2')
+				span 20 Keyword
+
+			li
+				include ../icon/icon.pug
+				+icon('icon--mark')
+				span No Time Tracking
+
+			li
+				include ../icon/icon.pug
+				+icon('icon--check2')
+				span 230 - Man Hour
+
+			li
+				include ../icon/icon.pug
+				+icon('icon--mark')
+				span News Letter Available
+
+		div.service-item__bottom
+			include ../btn/btn.pug
+			+btn({text: 'PURCHASE'})(class="btn--outline")

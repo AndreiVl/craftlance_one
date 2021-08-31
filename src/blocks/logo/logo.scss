@@ -1,0 +1,10 @@
+.logo img {
+		/* 2 Block model */
+	display: none;
+	width: 188px;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		display: block;
+	}
+}

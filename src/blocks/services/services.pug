@@ -1,0 +1,24 @@
+div.services
+	div.wrap-1
+		div.container
+			div.row
+				div.col-12
+					div.services__header
+						include ../title/title
+						+title({tag: 'h2', text: 'Affordable Services Package'})
+
+				div.col-12
+					div.services__select
+						include ../services-select/services-select
+
+				div.col-12
+					ul.services__list
+						li.services__item
+							include ../services-item/services-item.pug
+							+service-item({title: 'BASIC', price: '$59'})
+
+						li.services__item
+							+service-item({title: 'STANDARD', price: '$79'})(class="service-item--active")
+
+						li.services__item
+							+service-item({title: 'UNLIMITED', price: '$99'})

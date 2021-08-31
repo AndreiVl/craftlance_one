@@ -1,0 +1,34 @@
+footer.footer
+	div.footer__top
+		div.container
+			div.row
+				div.col-12.col-md-4
+					h2.footer__title Newsletter
+					p.footer__text Insights await in your company's data. Bring them into focus with BlueLance.
+					include ../subscribe/subscribe
+					+subscribe({placeholder: 'enter your email', icon: 'icon--arrow-right'})(class="subscrube--rectangle")
+
+				div.col-12.col-md-3
+					div.footer__menu1
+						h2.footer__title Quck Links
+						include ../menu-vertical/menu-vertical
+						+menu-vertical('menu-vertical__list', 'POWER BI DESKTOP', 'MOBILE' ,'SEE ALL DOWNLOADS', 'POWER BI DESKTOP' ,'MOBILE', 'SEE ALL DOWNLOADS')
+
+				div.col-12.col-md-2
+					div.footer__menu2
+						h2.footer__title Legal
+						+menu-vertical('menu-vertical__list','PRIVACY & COOKIES', 'TERMS OF USE' ,'TRADEMARKS')
+
+				div.col-12.col-md-3
+					div.footer__menu3
+						h2.footer__title Information
+						+menu-vertical('menu-vertical__list','SUPPORT', 'DEVELOPERS' ,'BLOG', 'NEWSLETTER' ,'PYRAMID ANALYTICS')
+
+	div.footer__bottom
+		div.container
+			div.row
+				div.col-12.col-md-6.col-lg-3
+					include ../logo/logo
+
+				div.col-12.col-md-6.col-lg-3.offset-lg-6.footer__bottom--text
+					span © Designed by Moin Khan. All Rights Reserved. Made by BlueLance

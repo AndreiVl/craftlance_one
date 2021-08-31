@@ -1,0 +1,11 @@
+.service-item--active:before {
+	/* 4 Decor */
+	background-color: $color-brand;
+}
+.service-item--active .btn {
+	/* 3 Typography */
+	color: $color-white;
+
+	/* 4 Decor */
+	background-color: $color-brand;;
+}

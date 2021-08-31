@@ -1,0 +1,60 @@
+.sign-in {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: row;
+}
+.sign-in__icon .icon--singin {
+	/* 2 Block model */
+	width: 50px;
+	height: 50px;
+
+	@media(min-width: 1200px){
+		/* 2 Block model */
+		width: 69px;
+		height: 58px;
+	}
+}
+.sign-in__process {
+	/* 2 Block model */
+	margin-left: 10px;
+
+	@media(min-width: 768px){
+		/* 2 Block model */
+		margin-left: 40px;
+	}
+	@media(min-width: 1200px){
+		/* 2 Block model */
+		margin-left: 29px;
+	}
+}
+.sign-in__title {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 24px;
+	color: $color-text-3;
+	text-transform: uppercase;
+}
+.sign-in__list {
+	/* 2 Block model */
+	margin: 0 0 0 4px;
+	padding: 13px 0 0 13px;
+}
+.sign-in__item {
+	/* 2 Block model */
+
+	/* 3 Typography */
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+	color: $color-text-1;
+
+	@media(min-width: 768px){
+		/* 3 Typography */
+		font-size: 16px;
+		line-height: 28px;
+	}
+}

@@ -1,0 +1,8 @@
+mixin data-item(data)
+	div.data-item(class!=attributes.class)
+		div.data-item__header
+			include ../icon/icon.pug
+			+icon(data.icon)
+		div.data-item__body
+			h3.data-item__title!=data.title
+			p.data-item__info!=data.info

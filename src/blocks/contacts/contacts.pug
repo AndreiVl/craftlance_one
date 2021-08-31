@@ -1,0 +1,10 @@
+div.contacts
+	ul.contacts__list
+		li.contacts__item
+			include ../icon/icon.pug
+			+icon('icon--phone')
+			a.contacts__link(href="tel:+4499151012545") +44 99151012545
+
+		li.contacts__item
+			+icon('icon--mail')
+			a.contacts__link(href="") contact@bluelance.com

@@ -1,0 +1,44 @@
+.subscrube--rectangle .subscrube__input {
+	/* 2 Block model */
+	width: 100%;
+	max-width: 273px;
+	height: 45px;
+	padding: 10px 30px 9px 10px;
+
+	/* 3 Typography */
+	font-style: italic;
+
+	/* 4 Decor */
+	border-radius: 0;
+	border: none;
+	background-color: $color-white;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding: 10px 10px 9px 10px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		padding: 10px 30px 9px 10px;
+	}
+}
+.subscrube--rectangle .btn {
+	/* 2 Block model */
+	padding: 17px 25px;
+
+	/* 3 Typography */
+	color: $color-white;
+
+	/* 4 Decor */
+	border: none;
+	border-radius: 0;
+	background-color: $color-brand;
+}
+.subscrube--rectangle .icon--arrow-right {
+	/* 2 Block model */
+	width: 7px;
+	height: 11px;
+
+	/* 3 Typography */
+	fill: $color-white;
+}

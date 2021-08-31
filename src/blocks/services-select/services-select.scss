@@ -1,0 +1,66 @@
+.services-select {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.services-select__left {
+	/* 1 Positioning */
+	position: relative;
+}
+.services-select__left:before {
+	/* 1 Positioning */
+	position: absolute;
+	top: 7px;
+	right: -10px;
+	content: "OR";
+	z-index: 10;
+
+	/* 2 Block model */
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding-top: 2px;
+
+	/* 3 Typography */
+	color: $color-white;
+	font-size: 10px;
+	text-align: center;
+
+	/* 4 Decor */
+	border-radius: 50%;
+	background-color: $color-bg-1;
+}
+.services-select__left .btn {
+	/* 3 Typography */
+	color: $color-white;
+
+	/* 4 Decor */
+	border: 1px solid $color-bg-2;
+	border-radius: 15px 0 0 15px;
+	background-color: $color-brand;
+}
+.services-select__left .btn__text {
+	/* 2 Block model */
+	margin: 0 29px 0 23px;
+	
+	/* 3 Typography */
+	line-height: 32px;
+}
+.services-select__right .btn {
+	/* 3 Typography */
+	color: $color-black;
+
+	/* 4 Decor */
+	border: 1px solid $color-bg-2;
+	border-left: none;
+	border-radius: 0 15px 15px 0;
+	background-color: $color-white;
+}
+.services-select__right .btn__text {
+	/* 2 Block model */
+	margin: 0 22px 0 16px;
+	
+	/* 3 Typography */
+	line-height: 32px;
+}

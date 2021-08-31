@@ -1,0 +1,58 @@
+.subscrube {
+	/* 2 Block model */
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.subscrube__input {
+	/* 2 Block model */
+	display: inline-flex;
+	height: 36px;
+	padding: 3px 10px 3px 10px;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: inherit;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 26px;
+	color: $color-text-5;
+
+	/* 4 Decor */
+	border: 2px solid $color-bg-4;
+	border-radius: 18px 0 0 18px;
+	border-right: none;
+
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		padding: 3px 44px 3px 19px;
+	}
+}
+.subscrube__input::-webkit-input-placeholder {
+	/* 3 Typography */
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 26px;
+	color: $color-text-5;
+}
+.subscrube .btn {
+	/* 3 Typography */
+	color: $color-white;
+
+	/* 4 Decor */
+	border: 2px solid $color-bg-4;
+	border-radius: 0 18px 18px 0;
+	background-color: $color-bg-4;
+}
+.subscrube .btn__text {
+	/* 2 Block model */
+	margin: 0 10px 0 5px;
+
+	/* 3 Typography */
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 32px;
+}
+
+@import "--rectangle/--rectangle";

@@ -1,0 +1,21 @@
+div.home-top
+	div.container
+		div.row
+			div.col-12
+				div.home-top__header
+					include ../title/title.pug
+					+title({tag: 'h1', text: 'Bring your Big Data to Life With Craft Lance'})
+
+			div.col-12.col-lg-8.offset-lg-2
+				p.home-top__desc Blue Lance transforms your company's data into rich visuals for you to collect and organize so you can focus on what matters to you. Stay in the know, spot trends as they happen, and push your business further.
+
+			div.col-12.col-lg-8.offset-lg-2
+				div.home-top__img
+					img(src="images/home__top.png", alt="")
+
+			div.col-12.col-lg-6.offset-lg-3
+				div.home-top__subscribe
+					include ../subscribe/subscribe.pug
+					+subscribe({placeholder: 'Enter your email address', text: 'Use it free'})
+
+					p By clicking Use it free, you agree to the  BlueLance Terms of Service.

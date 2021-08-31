@@ -1,0 +1,21 @@
+.data-item--active {
+	/* 4 Decor */
+	background-color: $color-brand;
+}
+.data-item--active .icon {
+	/* 4 Decor */
+	fill: $color-white;
+}
+.data-item--active .data-item__header:before {
+	/* 4 Decor */
+	background-color: $color-white;
+}
+.data-item--active .data-item__title {
+	/* 3 Typography */
+	color: $color-white;
+
+}
+.data-item--active .data-item__info {
+	/* 3 Typography */
+	color: $color-white;
+}

@@ -1,0 +1,36 @@
+.menu__list {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+
+	/* 4 Decor */
+	list-style: none;
+}
+.menu___item {
+	/* 2 Block model */
+	padding: 0 25px;
+
+	/* 3 Typography */
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+}
+.menu___item:first-child {
+	/* 2 Block model */
+	padding: 0 19px 0 0;
+}
+.menu___item:last-child {
+	/* 2 Block model */
+	padding: 0 0 0 25px;
+}
+.menu___link {
+	/* 3 Typography */
+	text-decoration: none;
+	color: $color-text-1;
+}
+.menu___link:hover {
+	/* 3 Typography */
+	text-decoration: underline;
+}

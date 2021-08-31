@@ -1,0 +1,16 @@
+.title__title {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 34px;
+	color: $color-text-1;
+	text-align: center;
+
+	@media(min-width: 1200px) {
+		font-size: 48px;
+		line-height: 60px;
+	}
+}

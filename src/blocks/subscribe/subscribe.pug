@@ -1,0 +1,6 @@
+mixin subscribe(data)
+	div.subscrube(class!=attributes.class)
+		input.subscrube__input(type="email", placeholder=data.placeholder)
+
+		include ../btn/btn.pug
+		+btn({icon_l: data.icon, text: data.text})

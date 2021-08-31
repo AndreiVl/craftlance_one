@@ -1,0 +1,136 @@
+.service-item {
+	/* 1 Positioning */
+	position: relative;
+	/* 2 Block model */
+	width: 100%;
+	max-width: 270px;
+	padding: 24px 50px 37px 50px;
+	box-sizing: border-box;
+
+	/* 3 Typography */
+	text-align: center;
+
+	/* 4 Decor */
+	border: 1px solid $color-bg-2;
+
+	@media(min-width: 1200px) {
+		width: 270px;
+	}
+}
+.service-item:before {
+	/* 1 Positioning */
+	position: absolute;
+	top: 0;
+	left: 50%;
+
+	/* 2 Block model */
+	display: block;
+	width: 73px;
+	height: 2px;
+	content: "";
+
+	/* 4 Decor */
+	background-color: $color-text-5;
+
+	/* 6 Sundry */
+	transform: translate(-50%, 0);
+}
+.service-item__title {
+	/* 2 Block model */
+	margin: 0 0 22px 0;
+
+	/* 3 Typography */
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	color: $color-text-1;
+	text-transform: uppercase;
+}
+.service-item__price {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	width: 94px;
+	height: 94px;
+
+	/* 4 Decor */
+	border: 3px solid $color-bg-2;
+	border-radius: 50%;
+}
+.service-item__price p {
+	/* 2 Block model */
+	margin: 0;
+	padding-top: 23px;
+
+	/* 3 Typography */
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 26px;
+	color: $color-text-1;
+	text-transform: uppercase;
+}
+.service-item__price span {
+	/* 2 Block model */
+	display: block;
+	padding-top: 4px;
+
+	/* 3 Typography */
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 10px;
+	color: $color-text-4;
+	font-style: italic;
+}
+.service-item__price:before {
+	/* 1 Positioning */
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	/* 2 Block model */
+	display: block;
+	width: 88px;
+	height: 88px;
+	content: "";
+
+	/* 4 Decor */
+	border: 1px solid $color-brand;
+	border-radius: 50%;
+}
+.service-item__list {
+	/* 2 Block model */
+	margin: 0 0 24px 0;
+	padding: 24px 0 0 0;
+
+	/* 4 Decor */
+	list-style: none;
+}
+.service-item__list span {
+	/* 2 Block model */
+	padding-left: 7px;
+
+	/* 3 Typography */
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 30px;
+	color: $color-text-4;
+}
+.service-item__list .icon--check2 {
+	/* 2 Block model */
+	width: 9px;
+	height: 9px;
+}
+.service-item__list .icon--mark {
+	/* 2 Block model */
+	width: 8px;
+	height: 8px;
+
+	/* 4 Decor */
+	fill: #ff0000;
+}
+
+@import '--active/--active'

@@ -1,0 +1,26 @@
+div.community
+	div.wrap-1
+		div.container
+			div.row
+				div.col-12
+					div.community__header
+						include ../title/title
+						+title({tag: 'h2', text: 'Community Sign Up'})
+
+				div.col-12
+					div.community__body
+						include ../sign-in/sign-in
+				
+				div.col-12.col-lg-6.offset-lg-3
+					ul.community__list
+						li.community__item
+							include ../community-item/community-item
+							+community-item({name: 'icon--singin', text: 'Community Edition'})(class="community-item--active")
+
+						li.community__item
+							include ../community-item/community-item
+							+community-item({name: 'icon--sgprocces', text: 'Complete Signup Process'})
+
+						li.community__item
+							include ../community-item/community-item
+							+community-item({name: 'icon--check', text: 'Sign up'})

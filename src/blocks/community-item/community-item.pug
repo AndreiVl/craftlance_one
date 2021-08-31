@@ -1,0 +1,7 @@
+mixin community-item(data)
+	div.community-item(class!=attributes.class)
+		div.community-item__icon
+			include ../icon/icon.pug
+			+icon(data.name)
+
+		span.community-item__text!=data.text
