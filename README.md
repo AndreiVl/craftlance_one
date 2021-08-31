@@ -4,6 +4,7 @@
 
 ## Link repo
 https://github.com/AndreiVl/craftlance_one
+https://github.com/AndreiVl/craftlance_one_build
 
 ## Link Demo
 https://andreivl.github.io/craftlance_one_build/
